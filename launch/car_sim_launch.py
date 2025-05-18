@@ -6,7 +6,7 @@ import os
 
 def generate_launch_description():
     pkg_path = FindPackageShare('ros2_team_project').find('ros2_team_project')
-    world_file = os.path.join(pkg_path, 'worlds', 'track_tmp.world')
+    world_file = os.path.join(pkg_path, 'worlds', 'test_track.world')
 
     return LaunchDescription([
         IncludeLaunchDescription(
