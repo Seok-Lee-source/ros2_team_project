@@ -1,0 +1,16 @@
+material course
+{
+  receive_shadows on
+  technique
+  {
+    pass
+	{
+	  ambient 1 1 1 1
+	  diffuse 1 1 1 1
+	  texture_unit
+	  {
+	    texture ./ros2_car_track_thick_lines.png
+	  }
+	}
+  }
+}
